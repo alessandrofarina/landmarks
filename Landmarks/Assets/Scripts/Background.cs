@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class Background : MonoBehaviour
 {
-    public const string backgroundObjectName = "Background";
+    public const string bgObjName = "Background";
     public static Image image;
 
     void Awake()
     {
-        GameObject gameObject = GameObject.Find(backgroundObjectName);
+        GameObject gameObject = GameObject.Find(bgObjName);
         image = gameObject.GetComponent<Image>();
     }
 
